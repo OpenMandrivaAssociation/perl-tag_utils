@@ -19,6 +19,7 @@ BuildRequires:  perl-devel
 %endif
 BuildRequires:  perl-libxml-perl
 Buildarch:      noarch
+Buildroot:      %{_tmppath}/%{name}-%{version}
 
 %description
 tag_utils is a set of Perl scripts to convert between various formats for Tree
