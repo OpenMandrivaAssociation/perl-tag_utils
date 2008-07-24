@@ -1,7 +1,7 @@
 %define module  tag_utils
 %define name    perl-%{module}
 %define version 1.10
-%define release %mkrel 8
+%define release %mkrel 10
 %define _provides_exceptions XML::Parser::Expat\\|Parse::Yapp::Driver
 
 Name:           %{name}
