@@ -19,6 +19,7 @@ BuildRequires:	perl(XML::Generator)
 BuildRequires:	perl(XML::Parser)
 BuildRequires:	perl(Data::Grove)
 BuildRequires:  perl(AppConfig)
+BuildRequires:  perl(DBI)
 Buildarch:      noarch
 Buildroot:      %{_tmppath}/%{name}-%{version}
 
