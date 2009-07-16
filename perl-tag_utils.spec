@@ -15,7 +15,10 @@ License:    GPL
 Group:      Development/Perl
 Url:        http://alpage.inria.fr/catalogue.en.html#tag_utils
 Source:     https://gforge.inria.fr/frs/download.php/5687/%{upstream_name}-%{upstream_version}.tar.gz
-BuildRequires:  perl-libxml-perl
+BuildRequires:	perl(XML::Generator)
+BuildRequires:	perl(XML::Parser)
+BuildRequires:	perl(Data::Grove)
+BuildRequires:  perl(AppConfig)
 Buildarch:      noarch
 Buildroot:      %{_tmppath}/%{name}-%{version}
 
