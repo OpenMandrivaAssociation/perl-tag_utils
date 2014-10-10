@@ -9,7 +9,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	3
 Summary:	Conversion between various formats for Tree Adjoining Grammars
 License:	GPL
 Group:		Development/Perl
