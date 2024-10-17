@@ -13,7 +13,7 @@ Release:	4
 Summary:	Conversion between various formats for Tree Adjoining Grammars
 License:	GPL
 Group:		Development/Perl
-Url:		http://alpage.inria.fr/catalogue.en.html#tag_utils
+Url:		https://alpage.inria.fr/catalogue.en.html#tag_utils
 Source:		https://gforge.inria.fr/frs/download.php/5687/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
